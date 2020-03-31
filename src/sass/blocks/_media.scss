@@ -1,0 +1,222 @@
+@media (max-width: 1200px) {
+    .button_main{
+        margin-top: 56px;
+        width: 280px;
+        height: 42px;    
+    }
+    .header{
+        &__logo{
+            width: 230px;
+        }
+        &__official{
+            font-size: 10px;
+            span{
+                font-size: 16px;
+            }
+        }
+        &__phone{
+            font-size: 16px;
+        }
+        .button{
+            width: 140px;
+            height: 28px;
+        }
+    }
+    .container{
+        max-width: 800px;
+    }
+    .advantages{
+        &__title{
+            padding-top: 56px;
+        }
+        &__wraper{
+            margin-top: 56px;
+        }
+        &__content{
+            margin-top: 28px;
+        }
+        &__subcontent{
+            margin-top: 20px;
+        }
+    }
+    .promo{
+        min-height: 625px;
+        &__wraper{
+            margin-top: 75px;
+        }
+        &__icons{
+            margin-top: 50px;
+        }
+        &__main{
+            margin-top: 60px;
+        }
+        &__link{
+            margin-top: 14px;
+            font-size: 14px;
+            a{
+                font-size: 14px;
+            }
+        }
+        &__header{
+            font-size: 40px;
+        }
+        &__subheader{
+            font-size: 22px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .container {
+      max-width: 740px;
+    }
+    .promo{
+        min-height: 600px;
+        &__wraper{
+            margin-top: 65px;
+        }
+        &__icons{
+            margin-top: 42px;
+        }
+        &__icon{
+            width: 130px;
+        }
+    }
+    .header{
+        &__logo{
+            width: 200px;
+        }
+        &__phone{
+            font-size: 14px;
+        }
+        &__header{
+            font-size: 38px;
+        }
+        &__subheader{
+            font-size: 36px;
+        }
+    }
+    .button{
+        width: 130px;
+        height: 26px;
+        &_main{
+            margin-top: 42px;
+            width: 265px;
+            height: 40px;
+        }
+    }
+    .advantages{
+        &__item{
+            width: 206px;
+        }
+    }
+}
+@media (max-width: 790px) {
+    .container{
+        max-width: 600px;
+    }
+    .header{
+        &__logo{
+            width: 180px;
+        }
+        &__official{
+            font-size: 8px;
+            span{
+                font-size: 14px;
+            }
+        }
+        &__phone{
+            font-size: 12px;
+        }
+    }
+    .button{
+        width: 130px;
+        height: 25px;
+        &_main{
+            margin-top: 34px;
+            width: 256px;
+            height: 38px;
+        }
+    }
+    .promo{
+        min-height: 560px;
+        &__wraper{
+            margin-top: 60px;
+        }
+    }
+    .advantages{
+        &__title{
+            padding-top: 46px;
+        }
+        &__wraper{
+            margin-top: 52px;
+            flex-direction: column;
+        }
+        &__item{
+            width: 237px;
+            margin-top: 23px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    }
+}
+@media (max-width: 625px) {
+    .container{
+        max-width: 480px;
+    }
+    .header{
+        &__logo{
+            width: 155px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 26px;
+            line-height: 26px;
+        }
+        &__subheader{
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__icons{
+            margin-top: 26px;
+            width: 318px;
+        }
+    }
+}
+@media (max-width: 500px){
+    .header{
+        &__official{
+            display: none;
+        }
+    }
+    .promo{
+        &__wraper{
+            align-items: center;
+        }
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .container{
+        max-width: 350px;
+    }
+}
+@media (max-width: 355px){
+    .container{
+        max-width: 320px;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        &__logo{
+            img{
+                width: 230px;
+            }
+        }
+        &__contact{
+            align-items: center;
+            margin-top: 14px;
+        }
+    }
+}
